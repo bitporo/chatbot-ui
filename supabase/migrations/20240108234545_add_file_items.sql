@@ -17,7 +17,7 @@ create table file_items (
 
   -- REQUIRED
   content TEXT NOT NULL,
-  local_embedding vector(384), -- 384 works for local w/ Xenova/all-MiniLM-L6-v2
+  local_embedding vector(1024), -- 1024 works for local w/ quentinz/bge-large-zh-v1.5
   openai_embedding vector(1536), -- 1536 for OpenAI
   tokens INT NOT NULL
 );

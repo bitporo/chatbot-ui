@@ -1,6 +1,10 @@
 # Chatbot UI
 
-The open-source AI chat app for everyone.
+The open-source AI chat app for everyone.  
+基于chatbot-ui修改  
+1、升级了langchain为最新  
+2、本地嵌入模型改用了ollama加载，计划增加切换功能  
+3、计划增加硅基流动、deepseek等api支持
 
 <img src="./public/readme/screenshot.png" alt="Chatbot UI" width="600">
 
